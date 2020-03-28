@@ -1,4 +1,4 @@
-import { aFunction } from './index'
+import { aFunction } from './index';
 
 describe('aFunction', () => {
     it('Should return a character', () => {
