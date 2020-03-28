@@ -2,15 +2,13 @@
     "parser": "@typescript-eslint/parser",
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended",
         "plugin:jest/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended"
     ],
     "plugins": [
         "@typescript-eslint",
-        "import",
-        "react-extra"
+        "import"
     ],
     "rules": {
         "no-var": "error",
@@ -35,7 +33,6 @@
         "block-spacing": "error",
         "brace-style": "error",
         "implicit-arrow-linebreak": ["error", "beside"],
-        "jsx-quotes": ["error", "prefer-double"],
         "object-curly-spacing": ["error", "always"],
         "keyword-spacing": "error",
         "no-multiple-empty-lines": ["error", {"max": 1, "maxBOF": 0}],
@@ -48,7 +45,6 @@
         "import/first": "error",
         "import/no-duplicates": "error",
         "import/newline-after-import": "error",
-        "react-extra/no-inline-styles": "error",
         "space-infix-ops": "error",
         "key-spacing": "error"
     },
@@ -67,7 +63,7 @@
         },
         "import/resolver": {
             "ts": {
-              "alwaysTryTypes": true // always try to resolve types under `<roo/>@types` directory even it doesn't contain any source code, like `@types/unist`
+                "alwaysTryTypes": true
             }
         }
     }
