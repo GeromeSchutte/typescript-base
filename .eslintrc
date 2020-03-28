@@ -57,6 +57,7 @@
         "node": true,
         "es6": true
     },
+    "ignorePatterns": ["webpack.config.js"],
     "settings": {
         "react": {
             "version": "detect"
