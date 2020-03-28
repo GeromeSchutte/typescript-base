@@ -965,6 +965,13 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+aria-query@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-0.3.0.tgz#cb8a9984e2862711c83c80ade5b8f5ca0de2b467"
+  integrity sha1-y4qZhOKGJxHIPICt5bj1yg3itGc=
+  dependencies:
+    ast-types-flow "0.0.7"
+
 arr-diff@^4.0.0:
   version "4.0.0"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/arr-diff/-/arr-diff-4.0.0.tgz?dl=https://registry.yarnpkg.com/arr-diff/-/arr-diff-4.0.0.tgz#d6461074febfec71e7e15235761a329a5dc7c520"
@@ -1036,6 +1043,11 @@ assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/assign-symbols/-/assign-symbols-1.0.0.tgz?dl=https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
   integrity sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c=
+
+ast-types-flow@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/ast-types-flow/-/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
+  integrity sha1-9wtzXGvKGlycItmCw+Oef+ujva0=
 
 astral-regex@^1.0.0:
   version "1.0.0"
@@ -1632,6 +1644,11 @@ copy-descriptor@^0.1.0:
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/copy-descriptor/-/copy-descriptor-0.1.1.tgz?dl=https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
+core-js-pure@^3.0.0:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.6.4.tgz#4bf1ba866e25814f149d4e9aaa08c36173506e3a"
+  integrity sha512-epIhRLkXdgv32xIUFaaAry2wdxZYBi6bgM7cB136dzzXXa+dFyRLTZeLUJxnd8ShrmyVXBub63n2NHo2JAt8Cw==
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/core-util-is/-/core-util-is-1.0.2.tgz?dl=https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -1726,6 +1743,11 @@ cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/cyclist/-/cyclist-1.0.1.tgz?dl=https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
+
+damerau-levenshtein@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.6.tgz#143c1641cb3d85c60c32329e26899adea8701791"
+  integrity sha512-JVrozIeElnj3QzfUIt8tB8YMluBJom4Vw9qTPpjGYQ9fYlB3D/rb6OordUxf3xeFB35LKWs0xqcO5U6ySvBtug==
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -1853,13 +1875,20 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-doctrine@1.5.0:
+doctrine@1.5.0, doctrine@^1.2.2:
   version "1.5.0"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/doctrine/-/doctrine-1.5.0.tgz?dl=https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
   integrity sha1-N53Ocw9hZvds76TmcHoVmwLFpvo=
   dependencies:
     esutils "^2.0.2"
     isarray "^1.0.0"
+
+doctrine@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-2.1.0.tgz#5cd01fc101621b42c4cd7f5d1a66243716d3f39d"
+  integrity sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==
+  dependencies:
+    esutils "^2.0.2"
 
 doctrine@^3.0.0:
   version "3.0.0"
@@ -2068,6 +2097,57 @@ eslint-plugin-jest@^23.20.0:
   integrity sha1-4dacdfY56Z2DZkJFPE517SLaQJk=
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
+
+eslint-plugin-jsx-a11y@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-4.0.0.tgz#779bb0fe7b08da564a422624911de10061e048ee"
+  integrity sha1-d5uw/nsI2lZKQiYkkR3hAGHgSO4=
+  dependencies:
+    aria-query "^0.3.0"
+    ast-types-flow "0.0.7"
+    damerau-levenshtein "^1.0.0"
+    emoji-regex "^6.1.0"
+    jsx-ast-utils "^1.0.0"
+    object-assign "^4.0.1"
+
+eslint-plugin-react-extra@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-extra/-/eslint-plugin-react-extra-0.1.0.tgz#2d5d6a80363154581c8ab4acd1606d57501e057a"
+  integrity sha1-LV1qgDYxVFgcirSs0WBtV1AeBXo=
+  dependencies:
+    eslint-plugin-jsx-a11y "^4.0.0"
+    eslint-plugin-react "^6.10.0"
+    javascript-state-machine "^2.4.0"
+    requireindex "~1.1.0"
+
+eslint-plugin-react@^6.10.0:
+  version "6.10.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-6.10.3.tgz#c5435beb06774e12c7db2f6abaddcbf900cd3f78"
+  integrity sha1-xUNb6wZ3ThLH2y9qut3L+QDNP3g=
+  dependencies:
+    array.prototype.find "^2.0.1"
+    doctrine "^1.2.2"
+    has "^1.0.1"
+    jsx-ast-utils "^1.3.4"
+    object.assign "^4.0.4"
+
+eslint-plugin-react@^7.19.0:
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.19.0.tgz#6d08f9673628aa69c5559d33489e855d83551666"
+  integrity sha512-SPT8j72CGuAP+JFbT0sJHOB80TX/pu44gQ4vXH/cq+hQTiY2PuZ6IHkqXJV6x1b28GDdo1lbInjKUrrdUf0LOQ==
+  dependencies:
+    array-includes "^3.1.1"
+    doctrine "^2.1.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.2.3"
+    object.entries "^1.1.1"
+    object.fromentries "^2.0.2"
+    object.values "^1.1.1"
+    prop-types "^15.7.2"
+    resolve "^1.15.1"
+    semver "^6.3.0"
+    string.prototype.matchall "^4.0.2"
+    xregexp "^4.3.0"
 
 eslint-scope@^4.0.3:
   version "4.0.3"
@@ -2695,7 +2775,7 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-has@^1.0.3:
+has@^1.0.1, has@^1.0.3:
   version "1.0.3"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/has/-/has-1.0.3.tgz?dl=https://registry.yarnpkg.com/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
   integrity sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=
@@ -3531,7 +3611,7 @@ jest@^26.4.0:
     import-local "^3.0.2"
     jest-cli "^26.4.0"
 
-js-tokens@^4.0.0:
+"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/js-tokens/-/js-tokens-4.0.0.tgz?dl=https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
@@ -3634,6 +3714,19 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
+
+jsx-ast-utils@^1.0.0, jsx-ast-utils@^1.3.4:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-1.4.1.tgz#3867213e8dd79bf1e8f2300c0cfc1efb182c0df1"
+  integrity sha1-OGchPo3Xm/Ho8jAMDPwe+xgsDfE=
+
+jsx-ast-utils@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-2.2.3.tgz#8a9364e402448a3ce7f14d357738310d9248054f"
+  integrity sha512-EdIHFMm+1BPynpKOpdPqiOsvnIrInRGJD7bzPZdPkjitQEqpdpUuFpq4T0npZFKTiB3RhWFdGN+oqOJIdhDhQA==
+  dependencies:
+    array-includes "^3.0.3"
+    object.assign "^4.1.0"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -4125,7 +4218,7 @@ object-visit@^1.0.0:
   dependencies:
     isobject "^3.0.0"
 
-object.assign@^4.1.0:
+object.assign@^4.0.4, object.assign@^4.1.0:
   version "4.1.0"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/object.assign/-/object.assign-4.1.0.tgz?dl=https://registry.yarnpkg.com/object.assign/-/object.assign-4.1.0.tgz#968bf1100d7956bb3ca086f006f846b3bc4008da"
   integrity sha1-lovxEA15Vrs8oIbwBvhGs7xACNo=
@@ -4134,6 +4227,26 @@ object.assign@^4.1.0:
     function-bind "^1.1.1"
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
+
+object.entries@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/object.entries/-/object.entries-1.1.1.tgz#ee1cf04153de02bb093fec33683900f57ce5399b"
+  integrity sha512-ilqR7BgdyZetJutmDPfXCDffGa0/Yzl2ivVNpbx/g4UeWrCdRnFDUBrKJGLhGieRHDATnyZXWBeCb29k9CJysQ==
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+
+object.fromentries@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/object.fromentries/-/object.fromentries-2.0.2.tgz#4a09c9b9bb3843dd0f89acdb517a794d4f355ac9"
+  integrity sha512-r3ZiBH7MQppDJVLx6fhD618GKNG40CZYH9wgwdhKxBDDbQgjeWGGd4AtkZad84d291YxvWe7bJGuE65Anh0dxQ==
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
 
 object.pick@^1.3.0:
   version "1.3.0"
@@ -4483,6 +4596,15 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
+prop-types@^15.7.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 prr@~1.0.1:
   version "1.0.1"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/prr/-/prr-1.0.1.tgz?dl=https://registry.yarnpkg.com/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
@@ -4654,6 +4776,11 @@ readdirp@~3.4.0:
   dependencies:
     picomatch "^2.2.1"
 
+regenerator-runtime@^0.13.4:
+  version "0.13.5"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
+  integrity sha512-ZS5w8CpKFinUzOwW3c83oPeVXoNsrLsaCoLtJvAClH135j/R77RuymhiSErhm2lKcwSCIpmvIWSbDkIfAqKQlA==
+
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/regex-not/-/regex-not-1.0.2.tgz?dl=https://registry.yarnpkg.com/regex-not/-/regex-not-1.0.2.tgz#1f4ece27e00b0b65e0247a6810e6a85d83a5752c"
@@ -4733,6 +4860,11 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/require-main-filename/-/require-main-filename-2.0.0.tgz?dl=https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha1-0LMp7MfMD2Fkn2IhW+aa9UqomJs=
+
+requireindex@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
+  integrity sha1-5UBLgVV+91225JxacgBIk/4D4WI=
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -4960,6 +5092,14 @@ shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/shellwords/-/shellwords-0.1.1.tgz?dl=https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha1-1rkYHBpI05cyTISHHvvPxz/AZUs=
+
+side-channel@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.2.tgz#df5d1abadb4e4bf4af1cd8852bf132d2f7876947"
+  integrity sha512-7rL9YlPHg7Ancea1S96Pa8/QWb4BtXL/TZvS6B8XFetGBeuhAsfmUspK6DokBeZ64+Kj9TCNRD/30pVz1BvQNA==
+  dependencies:
+    es-abstract "^1.17.0-next.1"
+    object-inspect "^1.7.0"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
@@ -5914,6 +6054,13 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://repo.jemstep.com/artifactory/api/npm/npm/xmlchars/-/xmlchars-2.2.0.tgz?dl=https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha1-Bg/hvLf5x2/ioX24apvDq4lCEMs=
+
+xregexp@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.3.0.tgz#7e92e73d9174a99a59743f67a4ce879a04b5ae50"
+  integrity sha512-7jXDIFXh5yJ/orPn4SXjuVrWWoi4Cr8jfV1eHv9CixKSbU+jY4mxfrBwAuDvupPNKpMUY+FeIqsVw/JLT9+B8g==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.8.3"
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
