@@ -1,0 +1,28 @@
+{
+  "name": "typescript-jest-base",
+  "version": "0",
+  "description": "Base project for all typescript based projects to build on",
+  "main": "index.ts",
+  "author": "Gerome Schutte",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.5",
+    "jest": "^25.2.3",
+    "ts-jest": "^25.2.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "bundle": "./node_modules/.bin/webpack"
+  }
+}
