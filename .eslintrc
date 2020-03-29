@@ -69,9 +69,10 @@
             "@typescript-eslint/parser": [".ts", ".tsx"]
         },
         "import/resolver": {
-            "ts": {
-              "alwaysTryTypes": true // always try to resolve types under `<roo/>@types` directory even it doesn't contain any source code, like `@types/unist`
+            "webpack": {
+                "config": "webpack.config.js"
             }
-        }
+        },
+        "import/ignore": [".scss$"]
     }
 }
