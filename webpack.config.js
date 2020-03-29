@@ -1,9 +1,6 @@
 const path = require('path');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const webpack = require('webpack');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const isDevelopment = process.env.NODE_ENV === 'development';
 
@@ -46,8 +43,7 @@ module.exports = {
         ...enableModuleOutput,
         path: path.resolve(__dirname, 'dist'),
     },
-    plugins: [
-        //new CleanWebpackPlugin(['dist']),
+    plugins: [ 
         new ForkTsCheckerWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'public/index.html')
