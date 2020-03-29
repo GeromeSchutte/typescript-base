@@ -5,11 +5,13 @@
         "plugin:react/recommended",
         "plugin:jest/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript"
     ],
     "plugins": [
         "@typescript-eslint",
-        "import",
         "react-extra"
     ],
     "rules": {
@@ -43,11 +45,12 @@
         "jest/no-disabled-tests": "off",
         "import/no-unresolved": "error",
         "import/named": "error",
-        "import/default": "error",
+        "import/default": "off",
         "import/no-useless-path-segments": "error",
         "import/first": "error",
         "import/no-duplicates": "error",
         "import/newline-after-import": "error",
+        "import/no-named-as-default-member": "off",
         "react-extra/no-inline-styles": "error",
         "space-infix-ops": "error",
         "key-spacing": "error"
